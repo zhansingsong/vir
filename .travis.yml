@@ -1,3 +1,6 @@
 language: node_js
 node_js:
   - "node"
+notifications:
+  email:
+    - 491273636@163.com
