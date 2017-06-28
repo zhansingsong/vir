@@ -3,5 +3,6 @@ node_js:
   - "node"
 notifications:
   email:
-    - 491273636@163.com
-  on_success: always # default: change
+    on_success: always # default: change
+    recipients:
+      - 491273636@163.comåå
