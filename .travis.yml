@@ -4,3 +4,4 @@ node_js:
 notifications:
   email:
     - 491273636@163.com
+  on_success: always # default: change
