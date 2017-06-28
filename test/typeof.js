@@ -80,3 +80,13 @@ test('isBoolean', t => {
     }
   })
 })
+// test travis.yml
+test('Boolean', t => {
+  Object.keys(data).forEach((val) => {
+    if (val === 'boolean') {
+      t.true(isBoolean(data[val]))
+    } else {
+      t.false(isBoolean(data[val]))
+    }
+  })
+})
