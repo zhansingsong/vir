@@ -5,4 +5,4 @@ notifications:
   email:
     on_success: always # default: change
     recipients:
-      - 491273636@163.comåå
+      - 491273636@163.com
