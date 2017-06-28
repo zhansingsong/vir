@@ -73,7 +73,7 @@ test('String', t => {
 
 test('isBoolean', t => {
   Object.keys(data).forEach((val) => {
-    if (val === 'boolean') {
+    if (val !== 'boolean') {
       t.true(isBoolean(data[val]))
     } else {
       t.false(isBoolean(data[val]))
