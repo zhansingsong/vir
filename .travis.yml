@@ -6,3 +6,4 @@ notifications:
     on_success: always # default: change
     recipients:
       - 491273636@163.com
+      - zhansingsong@gmail.com
